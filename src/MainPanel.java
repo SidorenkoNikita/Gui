@@ -29,8 +29,8 @@ class MainPanel extends JPanel {
 
     MainPanel() throws IOException {
 
-        file = new File("C:\\Users\\Nikita\\IdeaProjets\\Gui\\lewel.txt");
-        java.util.List<String> lines = Files.readAllLines(Paths.get("C:\\Users\\Nikita\\IdeaProjets\\Gui\\lewel.txt"), StandardCharsets.UTF_8);
+        file = new File("C:\\Users\\Nikita\\IdeaProjects\\Gui\\lewel.txt");
+        java.util.List<String> lines = Files.readAllLines(Paths.get("C:\\Users\\Nikita\\IdeaProjects\\Gui\\lewel.txt"), StandardCharsets.UTF_8);
         int j = 0;
         for(String line: lines){
             int i = 0;
